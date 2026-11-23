@@ -1332,7 +1332,7 @@ class DialogMixin:
         # 三行：位置 / 原文 / 上下文。值的来源必须是 S["grid"][r][c]，
         # 也就是**判定引擎真正读到的那串字**，不是重新裁一次 —— 按格裁切取字
         # 实测只有 89.2% 与 extract() 一致，差异全是「文字画了两遍」
-        # （DWG-0000009-02 → DDWWGG2200101001--0022）。拿它给人看会让人以为
+        # （DWG-0000009-02 → DDWG-0000200--0022）。拿它给人看会让人以为
         # 工具读错了，其实判定用的那串是好的。
         pk = tk.Frame(root_w, bg=theme.FIELD, highlightthickness=1,
                       highlightbackground=theme.BORDER)
